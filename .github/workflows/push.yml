@@ -8,7 +8,7 @@ jobs:
     name: git-pr-release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: git-pr-release
         uses: crowdport/git-pr-release-action@master
         env:
