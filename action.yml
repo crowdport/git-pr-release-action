@@ -1,0 +1,9 @@
+name: "git-pr-release"
+description: "Run git-pr-release"
+author: "cp_dev@crowdport.jp"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "check-square"
+  color: "green"
