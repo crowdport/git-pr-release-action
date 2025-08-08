@@ -7,3 +7,6 @@ GitHub Action to run [git-pr-release](https://github.com/motemen/git-pr-release)
 For example, here is a workflow to run `git-pr-release` when push to develop.
 see `.github/workflows` of this repository.
 
+---
+
+merge queue test
