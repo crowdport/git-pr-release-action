@@ -2,6 +2,7 @@ FROM ruby:2.6.5-alpine3.10
 
 RUN apk add --no-cache git tzdata
 RUN gem install \
+        'diff-lcs:1.6.2' \
         'highline:2.1.0' \
         'faraday-net_http:3.0.2' \
         'faraday:2.8.1' \
